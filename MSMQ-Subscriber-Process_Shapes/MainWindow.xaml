@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="SUBSCRIBER PROCESS" Grid.Column="1" HorizontalAlignment="Center" 
+                   VerticalAlignment="Center" FontSize="35" FontWeight="Bold"/>
+
+        <ListBox x:Name="ToolBox" Grid.Column="0" Grid.Row="1">
+            <Rectangle Width="50" Height="50" Fill="Red" Stroke="Black"/>
+            <Ellipse Width="50" Height="50" Fill="Green" Stroke="Black"/>
+        </ListBox>
+
+        <Canvas x:Name="canvas" Grid.Column="1" Grid.Row="1" MouseLeftButtonDown="canvas_MouseLeftButtonDown" Background="Transparent"/>
+
     </Grid>
 </Window>
