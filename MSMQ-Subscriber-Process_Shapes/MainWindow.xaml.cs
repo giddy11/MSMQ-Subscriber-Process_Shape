@@ -2,18 +2,8 @@
 using MSMQ_Subscriber_Process_Shapes.Models;
 using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace MSMQ_Subscriber_Process_Shapes
@@ -79,16 +69,16 @@ namespace MSMQ_Subscriber_Process_Shapes
             newShape.Stroke = shapeData.Stroke;
             newShape.Fill = shapeData.Fill;
 
-            var size = new Size(newShape.Width, newShape.Height);
-            //var size = new Size(shape.Width, shape.Height);
+            //var size = new Size(newShape.Width, newShape.Height);
+            ////var size = new Size(shape.Width, shape.Height);
 
-            newShape.Measure(size);
-            newShape.Arrange(new Rect(size));
-            newShape.UpdateLayout();
+            //newShape.Measure(size);
+            //newShape.Arrange(new Rect(size));
+            //newShape.UpdateLayout();
             return newShape;
         }
 
-        private void canvas_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        /*private void canvas_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             var maxposition = e.GetPosition(canvas);
             var selectedShape = ToolBox.SelectedItem as Shape;
@@ -121,6 +111,6 @@ namespace MSMQ_Subscriber_Process_Shapes
 
             // Add the new shape to the canvas
             canvas.Children.Add(shape);
-        }
+        }*/
     }
 }

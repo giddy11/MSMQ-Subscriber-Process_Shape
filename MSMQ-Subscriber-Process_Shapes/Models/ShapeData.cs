@@ -14,7 +14,7 @@ namespace MSMQ_Subscriber_Process_Shapes.Models
         public double Height { get; set; }
         public Brush? Fill { get; set; }
         public Brush? Stroke { get; set; }
-        public double X { get; internal set; }
-        public double Y { get; internal set; }
+        public double X { get; set; }
+        public double Y { get; set; }
     }
 }

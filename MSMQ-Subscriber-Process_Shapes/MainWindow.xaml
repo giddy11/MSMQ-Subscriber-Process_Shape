@@ -25,7 +25,7 @@
             <Ellipse Width="50" Height="50" Fill="Green" Stroke="Black"/>
         </ListBox>
 
-        <Canvas x:Name="canvas" Grid.Column="1" Grid.Row="1" MouseLeftButtonDown="canvas_MouseLeftButtonDown" Background="Transparent"/>
+        <Canvas x:Name="canvas" Grid.Column="1" Grid.Row="1" Background="Transparent"/>
 
     </Grid>
 </Window>
