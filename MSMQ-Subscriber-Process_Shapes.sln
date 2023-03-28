@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSMQ-Subscriber-Process_Shapes", "MSMQ-Subscriber-Process_Shapes\MSMQ-Subscriber-Process_Shapes.csproj", "{36BE69CD-7D14-4759-8B45-BB888AB0DBE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36BE69CD-7D14-4759-8B45-BB888AB0DBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BE69CD-7D14-4759-8B45-BB888AB0DBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BE69CD-7D14-4759-8B45-BB888AB0DBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BE69CD-7D14-4759-8B45-BB888AB0DBE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAD922BC-7FEB-4528-B798-6E56E85CF981}
+	EndGlobalSection
+EndGlobal
